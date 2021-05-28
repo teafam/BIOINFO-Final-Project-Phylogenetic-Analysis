@@ -23,9 +23,9 @@ In total, there are <b>4 programs</b> to be used in the replication method:
 # Data Preprocessing
 For this section, open the jupyter notebook titled "[BIOINFO Netherlands only] 
 FESTA to CSV Conversion.ipynb". This notebook is responsible for providing the basic 
-statistics of the raw file, the downsizing of data using random sampling, the labelling 
-of cities/towns/villages to its respective Dutch provinces, and writing the sampled 
-FASTA file.
+statistics of the raw file, the removing of sequences with more than 10% of 'N' characters,
+the downsizing of data using random sampling, the labelling of cities/towns/villages to 
+its respective Dutch provinces, and the writing of the sampled FASTA file.
 
 This procedure is straightforward, as the user would only need to run the scripts in a 
 sequential order, from top to bottom. Should there be any Dutch provinces, cities, towns,
@@ -44,11 +44,34 @@ should be skipped or ignored.
 # FIGTREE Visualization (???)
 
 # Extension process
+In total, there are <b>4 programs</b> to be used in the extension method: 
+1. [BIOINFO Philippines only] FESTA to CSV Conversion.ipynb
+2. MUSCLE.exe
+3. iqtree-1.6.12-Windows.zip
+4. 
 
 # Data Preprocessing
+For this section, open the jupyter notebook titled "[BIOINFO Philippines only] 
+FESTA to CSV Conversion.ipynb". This notebook is responsible for providing the basic 
+statistics of the raw file, the removing of sequences with more than 10% of 'N' characters,
+the downsizing of data using random sampling, the limiting of  sequences based from the 
+specified timespan (March to April 2021), and the writing of the sampled FASTA file.
+
+Like the previous jupyter notebook, the user would need to run the scripts in a 
+sequential order, from top to bottom. Should the user want to sample the dataset with a 
+different timespan in mind, modify these information as necessary. 
+
+Again, the two input files would be the raw Philippines FASTA sequence data file, and 
+an empty placeholder FASTA file to write on. Comments are provided within each code 
+segment as descriptions and guides to each code section. Each code block most likely 
+takes data or variables from previous block, thus no step should be skipped or ignored.
 
 # MUSCLE Alignment
+This process is identical to that of the MUSCLE alignment in the replication process. 
+Make sure to input the Philippines FASTA file instead and name the output accordingly.
 
 # IQ-TREE Building
+This process is identical to that of the IQ-TREE Building in the replication process. 
+Make sure to input the Philippines AFA file instead.
 
 # FIGTREE Visualization (???)
