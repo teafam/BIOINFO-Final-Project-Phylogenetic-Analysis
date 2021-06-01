@@ -1,3 +1,6 @@
+![BIOINFOFinalReport](https://cdn.discordapp.com/attachments/821762884668358657/849300106117382144/bioinfo_readme_header.jpg)
+> This is a course requirement for the subject BioInformatics (BIOINFO). 
+
 # BIOINFO Final Project: Phylogenetic Analysis
 This project aims to replicate the phylogenetic analysis found inthe 3rd phase of the paper
 "Rapid SARS-CoV-2 whole-genome sequencing and analysis for informed public health 
@@ -41,7 +44,32 @@ should be skipped or ignored.
 
 # IQ-TREE Building
 
-# FIGTREE Visualization (???)
+# FIGTREE Visualization
+* For Netherlands dataset:
+1. Install FigTree: https://github.com/rambaut/figtree/releases/download/v1.4.4/FigTree.v1.4.4.zip
+2. Open the zip file, and then open the FigTree application.
+3. Go to File > Open, and then choose the netherlands_seq.afa.treefile to generate the tree output for the Netherlands dataset.
+4. After selecting the treefile, an Input box will pop up prompting the user to select a name for the values. Just click OK.
+Optional: For users who want every label to be aligned, select “Align Tip Labels” by clicking its checkbox.
+
+* For Philippines dataset:
+1. Install FigTree: https://github.com/rambaut/figtree/releases/download/v1.4.4/FigTree.v1.4.4.zip
+2. Open the zip file, and then open the FigTree application.
+3. Go to File > Open, and then choose the philippines_seq.afa.treefile to generate the tree output for the sampled Philippines dataset.
+4. After selecting the treefile, an Input box will pop up prompting the user to select a name for the values. Just click OK.
+Optional: For users who want every label to be aligned, select “Align Tip Labels” by clicking its checkbox.
+
+* Coloring Labels
+1. Pick "Taxa" as the Selection Mode. 
+2. With Taxa, the user can now select the labels one at a time. Pressing down the ctrl button on the keyboard while clicking the labels will give users the ability to select multiple labels. 
+3. Once the user has selected the labels they want to color, click "Colour". 
+4. Choose a color and then pick OK.
+
+* Arranging Trees Decreasing/Increasing
+There are two ways to do this:
+1. First Step: After generating the tree, click “Tree” at the top. At the dropdown menu, the user can either choose Increasing Node Order or Decreasing Node Order.
+2. Second Step: After generating the tree, click “Trees” at the left sidebar. A dropdown menu will appear - select Order Nodes. Order Nodes has a dropdown box where users can either pick increasing or decreasing.
+
 
 # Extension process
 In total, there are <b>4 programs</b> to be used in the extension method: 
