@@ -62,8 +62,8 @@ different timespan in mind, modify these information as necessary.
 Install MUSCLE: https://www.drive5.com/muscle/downloads.htm
 
 * Generate the AFA file output:
-1. Open Command Prompt in the folder that contains muscle.exe and your input FASTA file
-2. Run the command "muscle.exe -in filename1.fasta -out filename2.fasta"
+1. Open Command Prompt in the folder that contains muscle.exe and your input FASTA file.
+2. Run the command "muscle.exe -in filename1.fasta -out filename2.afa"
 3. Ensure that the process terminates accordingly. MUSCLE will forcefully stop if there is a memory limit exceeded error. Downsize your data for this issue.
 4. Upon completion, your AFA file should be in the same folder. 
 
