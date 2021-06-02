@@ -1,10 +1,10 @@
 ![BIOINFOFinalReport](https://cdn.discordapp.com/attachments/821762884668358657/849300106117382144/bioinfo_readme_header.jpg)
-> This is a course requirement for the subject BioInformatics (BIOINFO). 
+> This is a course requirement for the subject BioInformatics (BIOINFO S16). 
 
 # BIOINFO Final Project: Phylogenetic Analysis
 This project aims to replicate the phylogenetic analysis found inthe 3rd phase of the paper
 "Rapid SARS-CoV-2 whole-genome sequencing and analysis for informed public health 
-decision-making in the Netherlands", by Munnik et al. (2020). This paper can be found through
+decision-making in the Netherlands", by Munnink et al. (2020). This paper can be found through
 this link: https://www.nature.com/articles/s41591-020-0997-y
 
 Moreover, the contributors extended this study by using a different set of sequence data, 
