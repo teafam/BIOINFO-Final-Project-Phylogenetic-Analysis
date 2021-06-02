@@ -23,6 +23,8 @@ In total, there are <b>4 programs</b> to be used in the both methods:
 3. iqtree-1.6.12-Windows folder
 4. FigTree v1.4.4 folder
 
+Download links are also provided for 2, 3, and 4 should the user have a different OS than Windows.
+
 # Data Preprocessing
 * For Netherlands dataset:
 1. Prepare the raw Netherlands FASTA sequence data file.
@@ -57,6 +59,8 @@ Should the user want to sample the dataset with a
 different timespan in mind, modify these information as necessary. 
 
 # MUSCLE Alignment
+Install MUSCLE: https://www.drive5.com/muscle/downloads.htm
+
 * Generate the AFA file output:
 1. Open Command Prompt in the folder that contains muscle.exe and your input FASTA file
 2. Run the command "muscle.exe -in filename1.fasta -out filename2.fasta"
@@ -66,6 +70,8 @@ different timespan in mind, modify these information as necessary.
 Note: replace "filename1" with the actual name of your FASTA file from data preprocessing stage, and "filename2" with the desired output name of the AFA file.
 
 # IQ-TREE Building
+Install IQ-TREE: http://www.iqtree.org/ 
+
 * Create Environment Variables on Windows
 1. Go to Control Panel > System and Security > System.
 2. Choose 'Advanced system settings'.
@@ -90,18 +96,18 @@ To change to bootstrapping replicate limit, simply replace "1000" with your desi
 To ignore ultrafast bootstrap, simply remove the line "-bb 1000" and run the code.
 
 # FIGTREE Visualization
+Install FigTree: https://github.com/rambaut/figtree/releases/download/v1.4.4/FigTree.v1.4.4.zip
+
 * For Netherlands dataset:
-1. Install FigTree: https://github.com/rambaut/figtree/releases/download/v1.4.4/FigTree.v1.4.4.zip
-2. Open the zip file, and then open the FigTree application.
-3. Go to File > Open, and then choose the Netherlands treefile extension to generate the tree output for the Netherlands dataset.
-4. After selecting the treefile, an Input box will pop up prompting the user to select a name for the values. Just click OK.
+1. Open the zip file, and then open the FigTree application.
+2. Go to File > Open, and then choose the Netherlands treefile extension to generate the tree output for the Netherlands dataset.
+3. After selecting the treefile, an Input box will pop up prompting the user to select a name for the values. Just click OK.
 Optional: For users who want every label to be aligned, select “Align Tip Labels” by clicking its checkbox.
 
 * For Philippines dataset:
-1. Install FigTree: https://github.com/rambaut/figtree/releases/download/v1.4.4/FigTree.v1.4.4.zip
-2. Open the zip file, and then open the FigTree application.
-3. Go to File > Open, and then choose the Philippines treefile extension to generate the tree output for the sampled Philippines dataset.
-4. After selecting the treefile, an Input box will pop up prompting the user to select a name for the values. Just click OK.
+1. Open the zip file, and then open the FigTree application.
+2. Go to File > Open, and then choose the Philippines treefile extension to generate the tree output for the sampled Philippines dataset.
+3. After selecting the treefile, an Input box will pop up prompting the user to select a name for the values. Just click OK.
 Optional: For users who want every label to be aligned, select “Align Tip Labels” by clicking its checkbox.
 
 * Coloring Labels
